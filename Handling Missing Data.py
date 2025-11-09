@@ -17,7 +17,7 @@ print(df.isnull().sum())
 
 
 # For removing the row containing null value 
-# df.dropna(inplace=True)
+# df.dropna(axis=0,inplace=True)
 # print(df)
 
 # For removing the column containing null value 

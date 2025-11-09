@@ -16,9 +16,11 @@ print(df["Age"].mean())
 
 
 group=df.groupby("Age")["Salary"].mean()
+group1=df.groupby("Age")["Salary"].sum()
 print(group)
 
 
 # Grouping multiple column
 grouped=df.groupby(["Age","Name"])["Salary"].mean()
 print(grouped)
+print(group1)

@@ -12,12 +12,12 @@ data={
 
 df=pd.DataFrame(data)
 print(df)
-
+# For inserting the new column and value in it
 df["Bonus"]=df["Salary"]*0.1
 
 print(df)
 
-# For inserting in the specific value in the new column
+# For inserting new column and its value in the specific index
 df.insert(2,"Ph_no",[9845673,34864946,4856373,236465347])
 print(df)
 
